@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>capture_20260122_133137.png</filename>
+	<path>/home/camila/camera/Probe_detection/images/capture_20260122_133137.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Probe</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>281</xmin>
+			<ymin>114</ymin>
+			<xmax>435</xmax>
+			<ymax>311</ymax>
+		</bndbox>
+	</object>
+</annotation>

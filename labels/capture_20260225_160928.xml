@@ -1,0 +1,14 @@
+<annotation>
+	<folder>backup_images</folder>
+	<filename>capture_20260225_160928.png</filename>
+	<path>/home/camila/camera/Probe_detection/backup_images/capture_20260225_160928.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
