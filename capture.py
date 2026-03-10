@@ -6,8 +6,8 @@ from datetime import datetime
 # Configure streams
 pipeline = rs.pipeline()
 config = rs.config()
-config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
-
+config.enable_stream(rs.stream.color, 1280, 720, rs.format.bgr8, 30)
+n=0
 # Start streaming
 pipeline.start(config)
 
@@ -31,8 +31,8 @@ try:
         # Key controls
         key = cv2.waitKey(1)
         if key == ord('a'):
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"capture_{timestamp}.png"
+            n=n+1
+            filename = f"probe_{n}.png"
             cv2.imwrite(filename, color_image)
             print(f"Saved: {filename}")
         elif key == ord('q'):
