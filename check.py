@@ -2,7 +2,7 @@ import os
 
 def check_pairs(folder_path):
     # Get all files
-    files = os.listdir("/home/camila/camera/Probe_detection/images")
+    files = os.listdir("/home/camila/probe_computer_vision/Probe_detection")
     
     # Separate images and xmls
     images = {f.rsplit('.', 1)[0] for f in files if f.lower().endswith(('.jpg', '.png', '.jpeg'))}
